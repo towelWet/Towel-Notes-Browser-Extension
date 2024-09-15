@@ -1,5 +1,7 @@
 # Towel Notes Browser Extension
 
+<img width="192" alt="Screen Shot 2024-09-15 at 5 13 15 AM" src="https://github.com/user-attachments/assets/54539a96-6ad0-4cd4-8d25-0d447bf4ca02">
+
 ## Overview
 Towel Notes is a simple browser extension that allows users to quickly jot down notes and organize them into folders. Users can create and delete folders, add and manage notes, and delete individual notes within folders. All data is stored locally using the browser's `localStorage`, ensuring persistence between sessions.
 
