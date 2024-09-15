@@ -1,0 +1,77 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #f2f2f9; /* Light grey for the overall background for better contrast */
+}
+
+textarea {
+  width: 100%;  /* Adjusted width to fill container */
+  height: 100px;
+  margin-bottom: 20px; /* Increased spacing */
+  resize: none;
+  padding: 10px;
+  background-color: #E6E7E8; /* Very light greyish blue */
+  border: none;
+  border-radius: 5px;
+  color: #333; /* Ensuring text is visible and clear */
+}
+
+button, select {
+  padding: 8px 16px;
+  margin-right: 10px;
+  margin-bottom: 20px; /* Increased spacing */
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  display: block; /* Makes the buttons and select box block level for spacing */
+}
+
+#saveButton {
+  background-color: #00A86B; /* Jade green for save button */
+  color: #fff;
+}
+
+#deleteNoteButton {
+  background-color: #ff2b00; /* Vivid red for delete note button */
+  color: #fff;
+}
+
+#newFolderButton {
+  background-color: #1DA1F2; /* Bright blue */
+  color: #fff;
+}
+
+#deleteFolderButton {
+  background-color: #ff2b00; /* Same red as delete note button */
+  color: #fff;
+}
+
+#folderSelect {
+  background-color: #F7D26A; /* Yellow background for the folder selector */
+  color: #fff;
+}
+
+#noteList {
+  list-style-type: none;
+  padding: 0;
+  width: 100%;
+}
+
+.noteItem {
+  margin-bottom: 5px;
+  padding: 10px;
+  background-color: #ccc; /* Light grey, kept for notes */
+  border-radius: 5px;
+  color: #444; /* Darker text for readability */
+  cursor: pointer; /* Show that notes are clickable */
+}
+
+.noteItem.selected {
+  background-color: #00A86B; /* Highlight selected note */
+  color: white; /* Change text color for visibility */
+}
+
+img {
+  width: auto;
+  height: 100px;
+}
